@@ -1,0 +1,44 @@
+body{
+height: auto;
+width: auto;
+margin: 0;
+background-color: rgb(237, 214, 204);
+font-family: helvetica,Arial,sans-serif;
+}
+
+/* HEADER STYLES */
+header{
+background-color: rgb(35, 51, 73);
+width: 100%;
+}
+
+h1{
+    margin: 0;
+    padding: 30px;
+    color: white;
+    font-size: 40px;
+}
+
+nav{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul{
+    width: 16%;
+}
+
+nav ul a{
+    color: white;
+    text-decoration: none;
+}
+
+div img{
+    width: 100%;
+}
+
+div p{
+    margin: 5px;
+}
