@@ -1,3 +1,7 @@
+html{
+min-height: 100%;
+}
+
 body{
 height: auto;
 width: auto;
@@ -12,7 +16,7 @@ background-color: rgb(35, 51, 73);
 width: 100%;
 }
 
-h1{
+header h1{
     margin: 0;
     padding: 30px;
     color: white;
@@ -41,4 +45,20 @@ div img{
 
 div p{
     margin: 5px;
+}
+
+/* ABSTRACT STYLES */
+article{
+    margin: 20px 30px;
+}
+article p{
+    text-indent: 20px;
+}
+
+/* FOOTER STYLES */
+footer{
+    height: 10%;
+    background-color: rgb(158, 175, 182);
+    bottom: 0;
+    width: 100%;
 }
