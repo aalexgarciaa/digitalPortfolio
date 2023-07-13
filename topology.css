@@ -7,20 +7,31 @@ article p{
 article h3{
     margin: 18px auto 10px auto;
 }
-div.torus div.kleinbottle{
-    min-width: 400px;
-}
-#torusimg{
-    max-width: 200px;
-}
-#kleinbottleimg{
-    max-width: 200px;
-    rotate: 90deg;
-}
 
+/*IMAGES FOR ORIENTATION*/
 div.images{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#torusimg{
+    max-height: 300px;
+    max-width: 300px;
+}
+#kleinbottleimg{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+/*SIDEDNESS*/
+#sidedness{
+    display: flex;
+    flex-flow: row wrap;
+}
+#sidedness > p{
+    max-width: 50%;
+}
+#mobiusimg{
+    max-width: 20%;
+    margin-left: 100px;
 }
