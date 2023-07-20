@@ -20,51 +20,60 @@
     </header>
     <article>
 
-        <h2>Topology</h2>
+        <h2>Topology</h2>     
         <p>This section will highlight some basic background information on topology that will be useful to understand exactly what researchers are looking for.
-             Topology is the study of manifolds and the properties that are not affected by deformation.
-             This means that we are focusing on properties that remain the same after we take a shape and bend it, or squish it.
-             Let's say for example then that we have a 2 dimensional square and a 2 dimensional circle.
-             They are not the same geometrically. However topologically they are equivalent, but not the same.
-             If you were to mold the corners outward, you would get a circle. 
-        </p>
-        <h3>Topology is intrinsic focused</h3>
-        <p>Topology is an intrinsic focused subject as we can transform manifolds on the outside and it would not affect the manifold in a way that is relevant in topology.
-             An intrinsic property is a property inside a manifold, such as you being inside a room.
-             If you changed something inside your room, that would be changing an intrinsic property.
-             An extrinsic property is a change on the outside of a manifold through molding.
+             Topology is the study of shapes and spaces and the properties that are not affected by deformation.
+             This means that we are focusing on properties that remain the same after we take a shape and continuously bend, or compress it.
+             Let's say for example then that we have a square and a circle.
+             They are not the same geometrically, but topologically they are equivalent.
+             If you were to mold the corners inward of the square, you would get a circle.  
         </p>
 
+        <div class="topologyimg">
+            <img id="circle" src="https://static.vecteezy.com/system/resources/previews/001/192/291/original/circle-png.png" alt="circle">
+            <caption></caption>
 
-        <h3>Orientation</h3>
-        <p>Orientability is an intrinsic property that relates to whether an object that goes along a manifold will “flip” or appear mirror reversed.
-             Let’s say for example that you are walking through your room, and at some point your room appears to be mirror reversed. 
-             This would mean that your room is a non-orientable space. 
-             Two manifolds that can be used to represent orientation could be the torus (Figure 1) vs a klein bottle (Figure 2). 
-             A torus is a flat manifold that if you were to be inside and walk around, you will never ‘flip’. 
-             However, if you were inside a klein bottle you would return from a full lap ‘flipped’.
+            <img id="square" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Square_1.svg/1200px-Square_1.svg.png" alt="square">
+        </div>
+
+        <h3>Manifolds</h3>
+        <p>As you read through this page, you will see the term ‘manifold’ more often than the word shape or space.
+             Manifold defines a special shape or space such that every point has a neighborhood that is topologically equivalent to Euclidean space.
+             What this means is that on a shape or space, at any point you choose, its surrounding area if you zoom in can be continuously deformed into a piece of flat Euclidean space.
+             Let’s take a 1-dimensional circle which is just a curve living in the 2 dimensional Euclidean plane.
+             At any point you choose on that curve, it has a neighborhood that is topologically equivalent to an interval of real numbers, which is the Euclidean space of dimension 1.
+             An example of a shape that is not a manifold is the infinity symbol.
+             It is still a 1-dimensional curve living in the 2nd dimension.
+             However at the center, there is an intersection.
+             It is at this point where it no longer resembles an interval as it does at every other point.</p>
+        <div class="manifoldimg">
+            <img id="circleimg" src="https://static.vecteezy.com/system/resources/previews/001/192/291/original/circle-png.png" alt="circle">
+            <caption></caption>
+            <img id="figure8img" src="https://www.freepnglogos.com/uploads/infinity-symbol-png/infinity-symbol-clipart-download-best-infinity-14.png" alt="figure8">
+        </div>
+        <p>We will be focusing on 3-dimensional manifolds (denoted 3-manifold from here on out) because our spatial universe is 3-dimensional.
+             However, if you are interested in learning more about manifolds, or even shapes and spaces that are not classified as manifolds, they can be found on the reference page. 
         </p>
-        <div class="images">
-            <div id="torus">
-                <img id="torusimg" src="https://upload.wikimedia.org/wikipedia/commons/1/17/Tesseract_torus.png" alt="Torus">
-                <figcaption>Fig.1 Torus (Wikipedia) </figcaption>
-            </div>
-            <div id="kleinbottle">
-                <img id="kleinbottleimg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Klein_bottle.svg/1200px-Klein_bottle.svg.png" alt="Klein Bottle">
-                <figcaption>Fig.2 Klein Bottle</figcaption>
-            </div>    
+
+        <h4>2-Manifolds</h4>
+        <p>To explain 3-manifolds, we will first need to understand 2-manifolds. 
+            2-manifolds are surfaces that are 2-dimensional. 
+            There are various 2-manifolds, but we will focus on 4 different 2-manifolds: 
+        </p>
+            <ol>2-Torus</ol>
+            <ol>Kleing Bottle</ol>
+            <ol>2-Sphere</ol>
+            <ol>Projective Plane</ol>
+        <p><b>2-Torus:</b> A 2-torus can be thought of as a flat square with its opposite edges glued together.
+             What we get resembles a donut. But it is important to remember that it is still flat because it is 2-dimensional.
+             As you move through the 2 torus, you will forever be going in a circle.</p>
+        <div class="manifoldimg">
+            <img id="torus2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Tesseract_torus.png/1200px-Tesseract_torus.png" alt="2-Torus">
+            <img id="flatTorus" src="https://i.stack.imgur.com/B7Ln9.png" alt="Flat 2-Torus">
+
         </div>
 
 
-        <h3>Sidedness</h3>
-        <div id="sidedness">
-        <p>A manifold is said to be one-sided if you can walk around the manifold and end up on the opposite side from where you began.
-             A great example of this is a mobius strip. 
-             No matter at what point you start from, after one lap you will come back around on the opposite side from where you began. 
-             A manifold is two sided when you can never end up on the opposite side of the manifold.   
-        </p>
-        <img id="mobiusimg" src="https://www.researchgate.net/publication/288151948/figure/fig5/AS:388500953288707@1469637254874/Left-The-Mobius-strip-is-a-nonorientable-surface-Middle-A-twisted-strip-represents-an.png" alt="Mobius strip">
-        </div>
     </article>
 </body>
 </html>

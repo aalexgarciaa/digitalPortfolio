@@ -8,30 +8,40 @@ article h3{
     margin: 18px auto 10px auto;
 }
 
-/*IMAGES FOR ORIENTATION*/
-div.images{
+/*IMAGES FOR Intro*/
+div.topologyimg{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-#torusimg{
-    max-height: 300px;
-    max-width: 300px;
+#circle{
+    max-height: 100px;
+    max-width: 100px;
 }
-#kleinbottleimg{
-    max-width: 300px;
-    max-height: 300px;
+#square{
+    max-width: 100px;
+    max-height: 100px;
 }
 
-/*SIDEDNESS*/
-#sidedness{
+/* IMAGES FOR MANIFOLDS */
+div.manifoldimg{
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
-#sidedness > p{
-    max-width: 50%;
+#circleimg{
+    max-width: 100px;
+    max-height: 100px;
 }
-#mobiusimg{
-    max-width: 20%;
-    margin-left: 100px;
+#figure8img{
+    max-width:150px;
+    max-height: 100px;
+}
+#torus2{
+    max-width: 200px;
+    max-height: 200px;
+}
+#flatTorus{
+    max-width: 350px;
+    max-height: 200px;
 }

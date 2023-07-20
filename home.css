@@ -15,10 +15,3 @@ article p{
     text-indent: 20px;
 }
 
-/* FOOTER STYLES */
-footer{
-    height: 10%;
-    background-color: rgb(158, 175, 182);
-    bottom: 0;
-    width: 100%;
-}
