@@ -1,0 +1,39 @@
+article{
+    margin: auto 30px;
+}
+article p{
+    text-indent: 20px;
+}
+article h3{
+    margin: 18px auto 10px auto;
+}
+.quote{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+div.imgGroup{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+div.image{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+#heatMap,#tempMap{
+    max-width: 400px;
+    max-height: 500px;
+}
+#lss,#lss2{
+    max-width: 400px;
+}
+#rowCube{
+    rotate: 90deg;
+    max-height: 300px;
+}
+#matchingCircles{
+    max-width: 600px;
+}
