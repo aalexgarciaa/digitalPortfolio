@@ -29,6 +29,10 @@ div.manifoldimg{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+div.image{
+    display: flex;
+    flex-direction: column;
+}
 #circleimg{
     max-width: 100px;
     max-height: 100px;
@@ -43,5 +47,41 @@ div.manifoldimg{
 }
 #flatTorus{
     max-width: 350px;
+    max-height: 200px;
+}
+#klienBottle{
+    max-width: 150px;
+    max-width: 100px;
+}
+#twoSphere{
+    max-width: 170px;
+}
+#torusRepresentation{
+    max-width: 400px;
+    max-height: 300px;
+}
+#hypersphereimg{
+    max-width: 300px;
+    max-width: 300px;
+}
+#mobiusStrip{
+    max-width: 300px;
+    max-height:300px;
+}
+#hemisphere{
+    max-width: 300px;
+}
+#sphereRotated{
+    rotate: 90deg;
+    offset-rotate: 90deg;
+}
+#euclideanTriangle, #sphericalTriangle{
+    max-width: 200px;
+}
+#yarnImg,#poincareDisk{
+    max-width: 200px;
+}
+#hyperbolicTriangle
+{
     max-height: 200px;
 }
