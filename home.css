@@ -9,9 +9,13 @@ div p{
 
 /* ABSTRACT STYLES */
 article{
-    margin: 20px 30px;
+    margin: 20px 70px;
+}
+article h1{
+    font-size: 30px;
 }
 article p{
     text-indent: 20px;
+    font-size: 20px;
 }
 

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Geometry</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="topology.css">
+</head>
+<body>
+    <header>
+        <h1>Background Geometry</h1>
+        <nav>
+            <ul><a href="home.html">Home</a></ul>
+            <ul><a href="topology.html">What is Topology?</a></ul>
+            <ul><a href="geometry.html">Background Geometry</a></ul>
+            <ul><a href="CMB_Methods.html">CMB and Methods</a></ul>
+            <ul><a href="Outcomes.html">Outcomes</a></ul>
+            <ul><a href="References.html">References</a></ul>
+        </nav>          
+    </header>
+    <article id="geometry">
+        <h2>Geometry</h2>
+        <p>While we will be focusing more on topology, it is still important to dive slightly into geometry.
+            As opposed to topology,geometry is the study of the properties of shapes that <i>do</i> change with bending and stretching.
+            This can include lengths, angles, curvatures, and volume. Determining the geometric properties of a manifold can give us clues to the topology of the manifold.
+            For 3-manifolds, there are 8 main types of geometries called “The Eight Thurston Geometries”.</p>
+        <ol>Euclidean</ol>
+        <ol>Spherical</ol>
+        <ol>Hyperbolic</ol>
+        <ol><math display="inline">
+            <msup>
+                <mi>S</mi>
+                <mn>2</mn>
+                <mo>*</mo>
+            </msup><msup>
+                <mi>E</mi>
+            </msup>
+            </math></ol>
+        <ol><math display="inline">
+            <msup>
+                <mi>H</mi>
+                <mn>2</mn>
+                <mo>*</mo>
+            </msup><msup>
+                <mi>E</mi>
+            </math></ol>
+        <ol>Nil</ol>
+        <ol>SL(2,R)</ol>
+        <ol>Sol</ol>
+        <p>However, we will only discuss the first 3 geometries.
+             This is because it is assumed that the universe is nearly perfectly isotropic and homogeneous.
+             There will be resources on the website for anyone interested in reading more about the 8 geometric spaces. </p>
+
+        <h3>Homogeneous vs Nonhomogeneous</h3>
+        <p>A homogeneous manifold has the same geometric properties at every point in the manifold.
+            This means that at any point in the manifold, it will look exactly the same as at every other point.
+            In particular, the curvature is the same. A great example of a homogeneous manifold is the 2-sphere.
+            At any point in the 2-sphere, it looks exactly the same as every other point on the 2-sphere.</p>
+            <div class="manifoldimg">
+                <div class="image">
+                    <img id="twoSphere" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Sphere_wireframe.svg/2560px-Sphere_wireframe.svg.png" alt="2-Sphere">
+                    <caption>Wikipedia</caption>
+                </div>
+            </div>
+        <p>A nonhomogeneous manifold is the opposite of a homogeneous manifold.
+            There is at least one point in the manifold that does not have the same geometric properties as the rest of the manifold.
+            An example could be the 2-Klein bottle pictured below, where at different points on the manifold, the curvatures are different.
+            By simply having different curvatures at different points, we know that the manifold is nonhomogeneous.</p>
+            <div class="manifoldimg">
+                <div class="image">
+                    <img id="klienBottle" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Klein_bottle.svg/1024px-Klein_bottle.svg.png" alt="Klein Bottle">
+                    <caption>wikipedia</caption>
+                </div>
+            </div>
+
+        <h3>Isotropic vs Anistropic</h3>
+        <p>This property is a little more complicated. We will use 3-manifolds for examples.
+             Let’s say we cut a solid ball in half vertically, what you see is a disk.
+             Then cut the solid ball in half horizontally and what you see is also a disk.
+             In both directions, vertically and horizontally, the shape still holds the same geometric properties.
+             The directions are indistinguishable since the properties are the same in every direction.
+             This is what makes a solid ball isotropic.</p>
+            <div class="manifoldimg">
+                <div class="image">
+                    <img id="hemisphere" src="https://i.stack.imgur.com/VEzQP.jpg" alt="Hemisphere">
+                </div>
+                <div class="image">
+                    <img id="hemisphere" src="https://i.stack.imgur.com/VEzQP.jpg" alt="Hemisphere">
+                </div>
+            </div>
+        <p>A shape or a space is anisotropic when you can distinguish between different directions.
+            We will not focus on anisotropic shapes or spaces, but there will be resources with more information on the reference page.</p>
+    
+        <div class="manifoldimg">
+            <div class="image">
+                <img src="https://www.researchgate.net/profile/Kang-Cao/publication/275450058/figure/fig1/AS:857201975500800@1581384285660/Three-different-geometries-and-geometric-space-Source-Drawn-by-Jin-Zhu.png" alt="Different Geometries">
+                <caption>Kang Cao Research Gate</caption>
+            </div>
+        </div>
+
+        <h3>Euclidean Space</h3>
+        <p>Euclidean space is known for being a flat space, where the angle sum of a triangle will always equal 180.
+             This is the most common plane that is taught. Think of high school geometry, it is typically geometry in the Euclidean plane.
+             Because the plane does not curve at all, the curvature of the Euclidean plane is always exactly 0.
+             In this space, the Pythagorean theorem is an important theorem that holds.
+             For every right triangle with legs of length a and b and hypotenuse of length c, we have: 
+            </p>
+             <p>
+                <math display="block">
+                <msup>
+                    <mi>a</mi>
+                    <mn>2</mn>
+                </msup>
+                <mo>+</mo>
+                <msup>
+                    <mi>b</mi>
+                    <mn>2</mn>
+                </msup>
+                <mo>=</mo>
+                <msup>
+                    <mi>c</mi>
+                    <mn>2</mn>
+                </msup>
+            </math>
+            </p>
+            <div class="manifoldimg">
+                <div class="image">
+                    <img id="euclideanTriangle" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Rtriangle.svg/1200px-Rtriangle.svg.png" alt="Euclidean Triangle">
+                </div>
+            </div>
+
+        <h3>Spherical Space</h3>
+        <p>Spherical space is known for being positively curved in that the angle sum of a triangle will always be greater than 180.
+             This is because lines are arcs and curve outward.
+             In this space, Pythagorean theorem no longer holds. </p>
+            <div class="manifoldimg">
+                <div class="image">
+                    <img id="sphericalTriangle" src="https://www.johndcook.com/sphericaltrig.png" alt="Spherical Triangle">
+                    <caption>John D. Cook Consulting</caption>
+                </div>
+            </div>
+        <h3>Hyperbolic Space</h3>
+        <p>Hyperbolic space is negatively curved and the angle sum of a triangle is less than 180.
+             To imagine a hyperbolic space, imagine a very wrinkly blanket that can never lay flat without overlapping.
+             Another way that a hyperbolic space is represented is by a Poincaré disk model.
+            </p>
+             <div class="manifoldimg">
+                <div class="image">
+                    <img id="yarnImg" src="https://www.theiff.org/images/lecture/crochet_02.jpg" alt="Example of Hyperbolic Plane">
+                    <caption>The Institure for Figuring. Daina Taimina </caption>
+                </div>
+                <div class="image">
+                    <img id="poincareDisk" src="https://mathworld.wolfram.com/images/eps-svg/HyperbolicTessellation_1000.svg" alt="Poincare Disk Model">
+                    <caption>Wolfram MathWorld Poincare Disk Model</caption>
+                </div>
+                <div class="image">
+                    <img id="hyperbolicTriangle" src="https://www.researchgate.net/publication/330716532/figure/fig4/AS:720516348407810@1548795892704/A-hyperbolic-triangle-i-i14i-i14-1-i-i14i-i14-2-i-i14i-i14-3-i-i14i-i14.png" alt="Hyperbolic Triangle">
+                    <caption>Research Gate, John Kogut, Hyperbolic Triangle</caption>
+                </div>
+             </div>
+        
+        <h2>The Connection Between Topology and Geometry</h2>
+        <p>In order to investigate the topology of the universe, there is a reason why it is important to introduce some basic information about geometry. Certain geometries can not have specific topologies, and vice versa.
+            For example, any manifold that has a spherical geometry, can never be an infinite manifold, such as a plane.
+            Therefore, if it was discovered that the universe is infinite, then we can automatically cross out any manifolds that have spherical geometries, such as a sphere and anything topologically equivalent to a sphere.</p>
+        <p>On the other hand, if we knew what geometry the universe has, then we can then cross out manifolds that can never have that geometry and its topologically equivalent manifolds.
+            For example, if it is discovered that the universe has a Euclidean geometry, then that crosses out the possibility that the universe is a sphere.
+            But it does not cross out possibilities of the universe being topologically a 3-torus, or Klein space. </p>
+    </article>
+
+    <footer>
+        <p>Alexandra Cardoso Garcia &#64; Meredith College Summer 2023 Research</p>
+    </footer>
+</body>
+</html>
