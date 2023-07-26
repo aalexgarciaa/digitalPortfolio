@@ -1,0 +1,16 @@
+article{
+    font-size: 17px;
+    margin: 20px 70px;
+}
+.website p{
+    margin: 10px 0px 0px 2px;
+    text-decoration: underline;
+}
+.website a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+}
+.website a:hover{
+    color: blue;
+}

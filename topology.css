@@ -1,5 +1,5 @@
 article{
-    margin: auto 30px;
+    margin: 20px 70px;
 }
 article p{
     text-indent: 20px;
@@ -59,6 +59,10 @@ div.image{
 #klienBottle{
     max-width: 150px;
     max-width: 100px;
+}
+#flatKleinbottle{
+    max-width: 200px;
+    max-height: 240px;
 }
 #twoSphere{
     max-width: 170px;
